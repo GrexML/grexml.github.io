@@ -3,16 +3,25 @@ project:
 
 website:
   title: "grexml"
+  description: "This is what happens when a greek and a mexican walk in a room and talk about stuff"
+  open-graph:
+    locale: en_US
+  search:
+    location: navbar
+    type: overlay
   navbar:
     right:
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: [sandstone, _variables.scss]
     css: styles.css
 
 
