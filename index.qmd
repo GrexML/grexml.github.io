@@ -1,5 +1,5 @@
 ---
-title: "grexml.github.io"
+title: "GrexML"
 listing:
   contents: posts
   sort: "date desc"
